@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-﻿D:\INSTALLED APPS\ Visual Studio Community 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Example.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Example.vcxproj -> C:\Users\octav\Documents\GitHub\PBINFO\Projects\PBINFO\x64\Debug\_EXAMPLE.exe
-=======
-﻿E:\Installed APPS\Visual Studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Example.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Example.cpp
-  Example.vcxproj -> C:\Users\octav\Documents\GitHub\Visual-Studio\Projects\PBINFO\x64\Debug\_EXAMPLE.exe
->>>>>>> 4aa2867dfe074399f4a88ae0377154dc0d0692a7
