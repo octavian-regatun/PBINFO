@@ -9,7 +9,7 @@ using namespace std;
 ifstream fin("extraprime.in");
 ofstream fout("extraprime.out");
 
-int a, b, x, min, max, v[101], index, nr;
+int a, b, v[501];
 
 int oglindit(int nr) {
 	int ogl = 0;
@@ -20,23 +20,28 @@ int oglindit(int nr) {
 	return ogl;
 }
 
+void golesteVector(int numarElemente) {
+	for (int i = 1; i <= numarElemente; i++) {
+		v[i] = 0;
+	}
+}
+
 int main()
 {
-	fin >> x;
+	fin >> a >> b;
 
-	index = 1;
-
-	while (x) {
-		v[index] = x % 10;
-		x /= 10;
-		index++;
+	for (int nr = a; nr <= b; nr++) {
+		int index = 1;
+		int aux = nr;
+		int uc = aux % 10;
+		while (uc % 2 == 1) {
+			v[index] = uc;
+			aux /= 10;
+			uc = aux % 10;
+			index++;
+		}
+		golesteVector(index);
 	}
 
-	for (int i = 1; i < index; i++) {
-		nr = nr * 10 + v[i];
-	}
-
-
-	fout << oglindit(nr);
 	return 0;
 }
