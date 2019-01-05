@@ -1,5 +1,4 @@
-// #(nr) (nume problema)
-
+// Problema 16 - Fisa Gradinariu (TEMA) - NETERMINATA
 #include "pch.h"
 #include "fstream"
 #include "iostream"

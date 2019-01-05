@@ -1,5 +1,4 @@
-// 19
-
+// Problema 19 - Fisa Gradinariu (TEMA)
 #include "pch.h"
 #include "fstream"
 #include "iostream"

@@ -1,4 +1,4 @@
-// #(nr) (nume problema) 17
+// Problema 17 - Fisa Gradinariu (TEMA)
 
 #include "pch.h"
 #include "fstream"
