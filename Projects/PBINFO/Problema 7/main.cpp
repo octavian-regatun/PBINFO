@@ -1,4 +1,4 @@
-// Problema 6 - tema vacanta Gradinariu
+// Problema 6 - Fisa Gradinariu (TEMA)
 
 #include "pch.h"
 #include "fstream"
